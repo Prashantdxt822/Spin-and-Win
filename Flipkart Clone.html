@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <style>
+        :root{
+            --main-bg-color: rgb(12, 75, 177);;
+        }
+        *{
+            margin: 0;padding: 0;
+        }
+        header{
+            height:14vh;
+            background-color: var( --main-bg-color);          
+            font-family: cursive;
+           
+        }
+        .flex-all-center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        footer{
+            background-color: var( --main-bg-color);
+            color: white;
+            height:12vh;
+            font-family: cursive;
+
+        }
+        nav ul li{
+            list-style: none;
+            padding:0px 11px;
+            cursor:pointer;
+        }
+
+        nav ul{
+            height:14vh;
+            display: flex;
+            justify-content:flex-start;
+            align-items: center;
+        }
+        nav ul li a{
+                text-decoration: none;
+                color:white; 
+        }
+
+        nav ul li a:hover{
+            font-weight: bold;
+            font-style: italic;
+        }
+        .logo{
+            height: 29px;
+            padding: 0px 23px;
+        }
+
+       
+
+        .search{
+                padding: 0px 23px;
+        }
+        .btn{
+            margin-left:8px;
+            background-color: var(--main-bg-color);
+            color:white;
+            padding:5px;
+            border-radius: 5px;
+            cursor:pointer;
+        }
+
+        .container{
+            min-height: 74vh;
+
+        }
+       .slider{
+        margin:12px auto;
+        width: 80vw;
+       }
+
+       .card{
+           display:flex;
+           max-width:80vw;
+           margin:auto;
+
+       }
+
+       .card1{
+           padding:0px 12px;
+       }
+       .card .card1 p{
+           padding:8px 0px;
+           text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img class="logo" src="flipkart-plus_8d85f4.png" alt="logo">
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/About.html">About</a></li>
+                <div class="search">
+                    <input type="text" style="width: 400px; height: 28px;border-radius: 5px;padding-left: 10px;" placeholder="Search an item">  <button class="btn">Search</button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <div class="container">
+        <div class="slider">
+        <img src="https://source.unsplash.com/1200x400/?e-commerce,shopping"alt="">
+    </div>
+    <h2>Shop Your Items!</h2>
+    <div class="card">
+        <div class="card1">
+            <img src="https://source.unsplash.com/200x200/?mobile" alt="">
+            <p>Mobile Phone</p>
+            <p>Min 20% Off</p>
+            <p>Grab Now!</p>
+        </div>
+        <div class="card1">
+            <img src="https://source.unsplash.com/200x200/?wallet" alt="">
+            <p>Wallet</p>
+            <p>Min 20% Off</p>
+            <p>Grab Now!</p>
+        </div>
+        <div class="card1">
+            <img src="https://source.unsplash.com/200x200/?Bat" alt="">
+            <p>Bat</p>
+            <p>Min 20% Off</p>
+            <p>Grab Now!</p>
+        </div>
+        <div class="card1">
+            <img src="https://source.unsplash.com/200x200/?chocolate" alt="">
+            <p>chocolate</p>
+            <p>Min 20% Off</p>
+            <p>Grab Now!</p>
+        </div>
+        <div class="card1">
+            <img src="https://source.unsplash.com/200x200/?dish" alt="">
+            <p>pasta</p>
+            <p>Min 20% Off</p>
+            <p>Grab Now!</p>
+        </div>
+        <div class="card1">
+            <img src="https://source.unsplash.com/200x200/?racket" alt="">
+            <p>racket</p>
+            <p>Min 20% Off</p>
+            <p>Grab Now!</p>
+        </div>
+        <div class="card1">
+            <img src="https://source.unsplash.com/200x200/?shuttle" alt="">
+            <p>shuttle</p>
+            <p>Min 20% Off</p>
+            <p>Grab Now!</p>
+        </div>
+    </div>
+    </div>
+
+</main>
+<footer class="flex-all-center">
+    <p >Copyright &copy; My-Cart.com</p>
+</footer>
+</body>
+</html>
